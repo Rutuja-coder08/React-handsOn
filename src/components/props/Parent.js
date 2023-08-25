@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Child from "./Child";
 
 function Parent() {
@@ -28,8 +28,8 @@ function Parent() {
 
   return (
     <div className="parent">
-        <h4>1.Props</h4>
-      <h1>Counter value: {counter}</h1>
+        <h3>1.Props</h3>
+      <h3>Counter value: {counter}</h3>
       <div>
         {/* <button onClick={handleIncrement}>Increment Counter</button>
       <button onClick={handleDecrement}>Decrement Counter</button>

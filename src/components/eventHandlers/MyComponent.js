@@ -10,7 +10,7 @@ const MyComponent = () =>{
             console.log(event.target.value);
     }
     return<>
-      <h3>Event Handlers</h3>
+      <h3>2.Event Handlers</h3>
       <div>
       {/* Attaching Event Handlers and passing props as function */}
        <button onClick={handleClick}>Click Me</button>
